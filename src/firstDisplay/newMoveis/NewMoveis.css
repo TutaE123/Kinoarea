@@ -1,0 +1,67 @@
+.card {
+    width: 21.21188rem;
+    height: 32.5rem;
+    text-align: left; 
+    margin-bottom: 1.89rem;
+}
+
+
+
+.image {
+    width: 21.21188rem;
+    height: 28.93213rem;
+    border-radius: 0.625rem;
+    background: #E0E0E0;
+    
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h4 {
+    margin: 0.7rem 0 0 0;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text p {
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.31rem;
+}
+
+.NewMoveis {
+    display: grid;
+    justify-items: center;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+}
+
+.novinki {
+    border-radius: 0.625rem;
+    border: 2px solid #FFF;
+    width: 12.5rem;
+    height: 4.4375rem;
+    flex-shrink: 0;
+    background-color: #1E2538;
+    color: #FFF;
+
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%; /* 1.87313rem */
+
+    margin: auto 0;
+}

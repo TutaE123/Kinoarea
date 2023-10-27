@@ -1,0 +1,42 @@
+.NowAtMovies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 3.31rem;
+}
+
+.line {
+    stroke-width: 2px;
+    stroke: #FFF;
+    width: 3.21875rem;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 765px;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.35);;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.activ {
+    color: #FFF; 
+}

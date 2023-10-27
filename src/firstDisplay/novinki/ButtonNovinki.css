@@ -1,0 +1,21 @@
+.buttonNovinki {
+    margin: 3.19rem auto;
+}
+
+
+.novinki {
+    border-radius: 0.625rem;
+    border: 2px solid #FFF;
+    width: 12.5rem;
+    height: 4.4375rem;
+    flex-shrink: 0;
+    background-color: #1E2538;
+    color: #FFF;
+
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166.5%; /* 1.87313rem */
+}
