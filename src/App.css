@@ -4,3 +4,15 @@
   text-align: center;
 }
 
+.body {
+
+    background-image: url(/src/assets/А\ _1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: -1;
+  
+}

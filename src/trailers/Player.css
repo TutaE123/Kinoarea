@@ -1,0 +1,29 @@
+.player {
+    
+    height: 47.8125rem; 
+    border-radius: 0.625rem;
+}
+.player img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.strokaPlayer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeDis {
+    display: flex;
+}
+
+.strokaPlayer h3 {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}

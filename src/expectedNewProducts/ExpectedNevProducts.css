@@ -1,0 +1,28 @@
+.titleExpectedNevProducts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+}
+
+.arrows p {
+    margin: 1rem;
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.CardsExpectes {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+

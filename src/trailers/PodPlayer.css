@@ -1,0 +1,8 @@
+.PodPlayer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.odinTrayler h4 {
+    text-align: left;
+}

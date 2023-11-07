@@ -1,0 +1,79 @@
+.TitleBoxReceipts {
+    display: flex;
+    align-items: center
+}
+
+.titleBoxOffcet {
+    display: flex;
+    align-items: center;
+}
+
+.titleBoxOffcet h1 {
+    text-align: left;
+}
+
+.titleBoxOffcet p {
+    color: #FFF;
+font-family: Qanelas;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.activniy {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ContentBoxReceipts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 20px;
+}
+
+.odinContentBoxReceipts {
+    display: flex;
+    align-items: center;
+    
+}
+
+.textBoxReceipts {
+    margin-left: 1rem;
+}
+
+.textBoxReceipts h4 {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+.textBoxReceipts1 {
+    color: #F2F60F;
+    text-align: right;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    
+}
+
+.textBoxReceipts2 {
+    color: rgba(255, 255, 255, 0.41);
+    font-family: Qanelas;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}

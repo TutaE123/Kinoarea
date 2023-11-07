@@ -1,15 +1,16 @@
 .card {
-    width: 21.21188rem;
-    height: 32.5rem;
+    max-width: 21.21188rem;
+    max-height: 32.5rem;
     text-align: left; 
-    margin-bottom: 1.89rem;
+    margin-bottom: 4rem;
+    position: relative;
 }
 
 
 
 .image {
-    width: 21.21188rem;
-    height: 28.93213rem;
+    width: 100%;
+    height: 100%;
     border-radius: 0.625rem;
     background: #E0E0E0;
     
@@ -43,8 +44,8 @@ h4 {
 
 .NewMoveis {
     display: grid;
-    justify-items: center;
-    grid-template-columns:  1fr 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .novinki {
@@ -64,4 +65,28 @@ h4 {
     line-height: 166.5%; /* 1.87313rem */
 
     margin: auto 0;
+}
+
+
+.reiting {
+    width: 3.89219rem;
+    height: 2.07588rem;
+    border-radius: 0.3125rem;
+    background: #4BCB36; 
+    position: absolute;
+    right: 0.78rem;
+    top: 0.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reiting p {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center
 }

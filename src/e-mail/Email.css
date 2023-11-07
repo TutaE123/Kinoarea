@@ -1,0 +1,17 @@
+.Email {
+    margin-top: 6rem;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+.fonAbsolute {
+    position: absolute;
+    top: 4.7rem;
+    width: 100%;    
+}
+
+.checoxRegister {
+    justify-content: center
+}

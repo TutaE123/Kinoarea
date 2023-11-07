@@ -1,0 +1,174 @@
+.PersonTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 3.31rem;
+}
+
+.line {
+    stroke-width: 2px;
+    stroke: #FFF;
+    width: 3.21875rem;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 765px;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.35);;
+    font-family: Qanelas;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-left: 3rem;
+}
+
+.activ {
+    color: #FFF; 
+}
+
+.PersonCard {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); 
+}
+
+.PersonOne {
+    position: relative;
+}
+
+.PersonMesto {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
+
+.PersonInfo {
+    position: relative;
+    top: 15rem  
+}
+
+.PersonMesto p {
+    text-align: left;
+    margin: 0.7rem;
+}
+
+.mesto {
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 133.333% */
+}
+
+.PersonInfo p {
+    text-align: left;
+}
+
+
+.Name_ru {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Name_en { 
+    color: rgba(255, 255, 255, 0.35);
+    font-family: Qanelas;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.age {
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 133.333% */
+}
+
+
+.blokPersonOne {
+    border-radius: 0.625rem;
+    background: #1B2133;
+}
+
+.reitingStr {
+    padding: 1rem;
+}
+
+.columnOne p {
+    text-align: left;
+    margin: 0.5rem;
+
+}
+
+.reitingStr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Name_ru_mini {
+    color: #FFF;
+    font-family: Qanelas;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Name_en_mini {
+    color: #3B486B;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.age_mini {
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Line {
+    width: 27.14231rem;
+    height: 0.125rem;
+    background: #1E2538;
+}
+
+.columnToo p {
+    color: #F2F60F;
+    font-family: Qanelas;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
