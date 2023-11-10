@@ -33,7 +33,7 @@ export const NewMoveis = () => {
                         </div>
                         <div className="text">
                             <h4>{elem.localName}</h4>
-                            <p>{elem.genresd}</p>
+                            <p>{elem.genres}</p>
                         </div></Link>
                     </div> 
                 })
