@@ -2,20 +2,13 @@ import React from 'react'
 import logo from '../assets/Логотип.svg'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import { Menu } from './Menu'
 
 export const Header = () => {
   return (
     <header>
         <div className="logo"><img src={logo} alt="Logo" /></div>
-        <nav className="navigate">
-            <a href="#">Афиша</a>
-            <a href="#">Медиа</a>
-            <a href="#">Фильмы</a>
-            <a href="#">Актёры</a>
-            <a href="#">Новости</a>
-            <a href="#">Подборки</a>
-            <a href="#">Категории</a>
-        </nav>
+        <Menu />
         <div className="searchAndEntry">
             
                 <button className='search'><svg width="55" height="52" viewBox="0 0 55 52" fill="none" xmlns="http://www.w3.org/2000/svg">

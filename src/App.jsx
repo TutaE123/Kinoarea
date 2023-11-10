@@ -10,6 +10,7 @@ import { ExpectedNevProducts } from './expectedNewProducts/ExpectedNevProducts'
 import { News } from './news/News'
 import { BoxReceipts } from './boxReceipts/BoxReceipts'
 import { Email } from './e-mail/Email'
+import { Footer } from './footer/Footer'
 
 
 function App() {
@@ -20,7 +21,6 @@ function App() {
       <Header />
       <NowAtMovies />
       <ButtonNovinki />
-      
       <Trailers />
       <PopularMovies />
       <Person />
@@ -28,6 +28,7 @@ function App() {
       <ExpectedNevProducts />
       <BoxReceipts />
       <Email />
+      <Footer />
       
     </>
   )

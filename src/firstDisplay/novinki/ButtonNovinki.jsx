@@ -3,18 +3,12 @@ import './ButtonNovinki.css'
 import { NewMoveis } from '../newMoveis/NewMoveis'
 
 
+
 export const ButtonNovinki = () => {
   return (
 
     <section>
       <div className="NowMovies">
-        <NewMoveis />
-        <NewMoveis />
-        <NewMoveis />
-        <NewMoveis />
-        <NewMoveis />
-        <NewMoveis />
-        <NewMoveis />
         <NewMoveis />
       </div>
       <div className='buttonNovinki'>

@@ -42,11 +42,7 @@ h4 {
     margin-top: 0.31rem;
 }
 
-.NewMoveis {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
+
 
 .novinki {
     border-radius: 0.625rem;

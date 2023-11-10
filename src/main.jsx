@@ -8,6 +8,7 @@ import App from './App.jsx'
 import './index.css'
 import { Login } from './login/Login.jsx';
 import { Register } from './login/Register.jsx';
+import { Movie } from './movie/Movie.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
   {
     path: '/register',
     element: <Register />
+  },
+
+  {
+    path: '/movie/:id',
+    element: <Movie />
   }
 ]);
 
