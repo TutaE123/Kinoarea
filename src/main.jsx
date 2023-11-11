@@ -8,7 +8,7 @@ import App from './App.jsx'
 import './index.css'
 import { Login } from './login/Login.jsx';
 import { Register } from './login/Register.jsx';
-import { Movie } from './movie/Movie.jsx';
+import { Movie } from './Movie.jsx';
 
 
 const router = createBrowserRouter([
